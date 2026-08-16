@@ -1,6 +1,7 @@
 name: core-tests
 
 on:
+  workflow_dispatch:
   push:
   pull_request:
 
@@ -24,3 +25,4 @@ jobs:
       - name: Run tests
         run: |
           pytest -q
+
