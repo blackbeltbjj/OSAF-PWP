@@ -2,17 +2,54 @@
 
 Canonical reusable software infrastructure for Pacific Warm Pool analysis.
 
-This repository preserves the authoritative spherical PWP methodology,
-including Pacific-mask handling, spherical area weighting, centroid
-calculation, and quality-control infrastructure.
+This repository preserves the audited core methodology used for spherical, physical-area-weighted Pacific Warm Pool calculations, including Pacific-mask handling, spherical area weighting, centroid calculation, and quality-control infrastructure.
+
+## Scientific Context
+
+OSAF-PWP supports the computational workflow associated with:
+
+**Machado, F. V.**
+*Defining the Pacific Warm Pool: Threshold Dependence of Centroid Geometry and Robustness of Interannual Variance Modulation.*
+
+Journal of Atmospheric and Oceanic Technology manuscript.
+
+## Release
+
+**Current archival software release:** v1.0.0
+
+The v1.0.0 release contains the audited core software used for spherical, physical-area-weighted Pacific Warm Pool centroid calculation. Byte-integrity checks, clean/fresh-clone validation, automated tests, and GitHub Actions CI passed before release.
+
+[View v1.0.0 release](https://github.com/blackbeltbjj/OSAF-PWP/releases/tag/v1.0.0)
 
 ## Canonical Program 05
 
-src/05_calculate_pwp_centroid.py
+`src/05_calculate_pwp_centroid.py`
 
 SHA-256:
-729B80855247DE4F690C790DB3129262BB2E808FC43B9088D9E83B00E3DA3150
 
-## Status
+`729B80855247DE4F690C790DB3129262BB2E808FC43B9088D9E83B00E3DA3150`
 
-Pre-publication release candidate. No DOI has yet been minted.
+## Reproducibility Role
+
+OSAF-PWP provides the reusable computational core on which the threshold-sensitivity analysis is built.
+
+**Scientific workflow:**
+
+`NOAA OISST v2.1 -> Pacific mask -> spherical area weighting -> warm-pool geometry -> centroid calculation -> quality control -> derived scientific products`
+
+## Related Repository
+
+[pwp-threshold-centroid-sensitivity](https://github.com/blackbeltbjj/pwp-threshold-centroid-sensitivity) contains the threshold-sensitivity and robustness analyses supporting the manuscript.
+
+## Archival DOI
+
+A Zenodo DOI will be added here only when the archive identifier has been verified against this released software version.
+
+## Author
+
+**Fabio Vieira Machado**
+ORCID: [0000-0003-0723-075X](https://orcid.org/0000-0003-0723-075X)
+
+## License
+
+MIT License.
