@@ -43,7 +43,19 @@ OSAF-PWP provides the reusable computational core on which the threshold-sensiti
 
 ## Archival DOI
 
-A Zenodo DOI will be added here only when the archive identifier has been verified against this released software version.
+**OSAF-PWP v1.0.0 - Zenodo Software Archive**
+
+- Version DOI: https://doi.org/10.5281/zenodo.21964951
+- GitHub release: https://github.com/blackbeltbjj/OSAF-PWP/releases/tag/v1.0.0
+
+### Associated Paper 1 archives
+
+The threshold-sensitivity software and frozen derived scientific products supporting the same study are archived separately:
+
+- PWP Threshold-Centroid Sensitivity Reproducibility Package v1.0.0: https://doi.org/10.5281/zenodo.21964955
+- Pacific Warm Pool Threshold-Centroid Sensitivity: Derived Data v1.0.0: https://doi.org/10.5281/zenodo.21976955
+
+These persistent records preserve the released software and derived-data products associated with the Paper 1 reproducibility chain.
 
 ## Author
 
